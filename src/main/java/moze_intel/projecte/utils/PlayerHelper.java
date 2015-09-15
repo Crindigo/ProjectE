@@ -156,7 +156,7 @@ public final class PlayerHelper
 
 	public static void updateClientServerStepHeight(EntityPlayerMP player, float value)
 	{
-		player.stepHeight = value;
-		PacketHandler.sendTo(new StepHeightPKT(value), player);
+		//player.stepHeight = value;
+		//PacketHandler.sendTo(new StepHeightPKT(value), player);
 	}
 }
